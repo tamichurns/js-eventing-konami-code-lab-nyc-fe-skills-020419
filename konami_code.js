@@ -7,7 +7,6 @@ function onKeyDown(event) {
     console.log(event)
   }
 
-
 document.addEventListener('keydown', onKeyDown)
 
 init() 

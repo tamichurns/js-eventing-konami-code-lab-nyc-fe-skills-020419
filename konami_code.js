@@ -9,6 +9,9 @@ function onKeyDown(event) {
     }  else {
       tracker = 0 
     }
+    if (tracker === 9) {
+      alert('nice jerb')
+    }
   }
 
 document.addEventListener('keydown', onKeyDown)

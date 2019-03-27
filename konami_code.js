@@ -4,7 +4,11 @@ let tracker = 0
 function init() {}
   
 function onKeyDown(event) {
-    console.log(event.keyCode)
+    if (event.keyCode === code[tracker]){
+      tracker++
+    }  else {
+      tracker = 0 
+    }
   }
 
 document.addEventListener('keydown', onKeyDown)

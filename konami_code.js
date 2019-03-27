@@ -9,7 +9,7 @@ function onKeyDown(event) {
     }  else {
       tracker = 0 
     }
-    if (tracker === 9) {
+    if (tracker === 10) {
       alert('nice jerb')
     }
   }

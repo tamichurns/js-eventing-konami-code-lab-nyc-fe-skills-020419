@@ -7,5 +7,7 @@ function init() {
     console.log(event)
   }
   
-  document.addEventListener('keydown', onKeyDown)
+
 }
+
+  document.addEventListener('keydown', onKeyDown)

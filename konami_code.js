@@ -4,7 +4,7 @@ let tracker = 0
 function init() {}
   
 function onKeyDown(event) {
-    console.log(event)
+    console.log(event.keyCode)
   }
 
 document.addEventListener('keydown', onKeyDown)
